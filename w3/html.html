@@ -8,12 +8,7 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Learn HTML</h1>
-  </header>
-
-  <!-- Navbar -->
+  <header><h1>Learn HTML</h1></header>
   <nav>
     <a href="index.html">Home</a>
     <a href="html.html" class="active">HTML</a>
@@ -24,9 +19,7 @@
     <a href="tutorials.html">Tutorials</a>
   </nav>
 
-  <!-- Main layout -->
   <div class="layout">
-    <!-- Sidebar -->
     <aside class="sidebar">
       <h3>HTML Topics</h3>
       <ul>
@@ -35,53 +28,36 @@
         <li><a href="#">Headings</a></li>
         <li><a href="#">Paragraphs</a></li>
         <li><a href="#">Links</a></li>
-        <li><a href="#">Images</a></li>
-        <li><a href="#">Lists</a></li>
       </ul>
     </aside>
 
-    <!-- Content -->
     <main class="content">
       <h2>HTML Introduction</h2>
-      <p>HTML is the standard markup language for creating web pages. It stands for <strong>HyperText Markup Language</strong>.</p>
-
-      <div class="note">💡 Note: Every webpage you see on the internet is built with HTML.</div>
-
-      <h3>Example:</h3>
+      <p>HTML is the standard markup language for creating web pages.</p>
+      <div class="note">💡 Note: Every webpage on the internet uses HTML.</div>
       <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;My First Page&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello World&lt;/h1&gt;
-  &lt;p&gt;This is my first HTML page!&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
+&lt;head&gt;&lt;title&gt;Page&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;&lt;h1&gt;Hello&lt;/h1&gt;&lt;/body&gt;
+&lt;/html&gt;</code></pre>
 
-      <!-- Editor -->
       <h3>Try it Yourself:</h3>
       <textarea id="editor" rows="10">
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My Page</title>
-</head>
+<head><title>My Page</title></head>
 <body>
-  <h1>Hello World</h1>
-  <p>This is my first HTML page!</p>
+<h1>Hello World</h1>
+<p>This is my first HTML page!</p>
 </body>
 </html>
       </textarea>
       <br>
       <button onclick="runCode()">Run Code</button>
-
       <iframe id="output"></iframe>
     </main>
   </div>
 
-  <!-- Footer -->
   <footer>
     <p>
       <a href="#">About</a> |

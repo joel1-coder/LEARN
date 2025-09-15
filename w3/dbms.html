@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DBMS Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Learn DBMS</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="html.html">HTML</a>
+    <a href="css.html">CSS</a>
+    <a href="js.html">JavaScript</a>
+    <a href="python.html">Python</a>
+    <a href="dbms.html" class="active">DBMS</a>
+    <a href="tutorials.html">Tutorials</a>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <h3>DBMS Topics</h3>
+      <ul>
+        <li><a href="#">Introduction</a></li>
+        <li><a href="#">ER Model</a></li>
+        <li><a href="#">SQL Basics</a></li>
+        <li><a href="#">Normalization</a></li>
+        <li><a href="#">Transactions</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h2>DBMS Introduction</h2>
+      <p>DBMS stands for Database Management System, software for managing databases.</p>
+
+      <div class="note">💡 Note: SQL is used to interact with relational databases.</div>
+
+      <h3>Example:</h3>
+      <pre><code>CREATE TABLE Students (
+  ID INT PRIMARY KEY,
+  Name VARCHAR(50),
+  Age INT
+);</code></pre>
+
+      <h3>Try it Yourself:</h3>
+      <textarea id="editor" rows="10">
+-- SQL Example
+CREATE TABLE Students (
+  ID INT PRIMARY KEY,
+  Name VARCHAR(50),
+  Age INT
+);
+      </textarea>
+      <br>
+      <button onclick="runCode()">Run Code</button>
+      <iframe id="output"></iframe>
+    </main>
+  </div>
+
+  <footer>
+    <p>
+      <a href="#">About</a> |
+      <a href="#">Contact</a> |
+      <a href="#">Privacy Policy</a>
+    </p>
+    <p>© 2025 LearnToCode. All rights reserved.</p>
+  </footer>
+</body>
+</html>

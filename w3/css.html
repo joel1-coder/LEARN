@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Learn CSS</h1>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="html.html">HTML</a>
+    <a href="css.html" class="active">CSS</a>
+    <a href="js.html">JavaScript</a>
+    <a href="python.html">Python</a>
+    <a href="dbms.html">DBMS</a>
+    <a href="tutorials.html">Tutorials</a>
+  </nav>
+
+  <!-- Main layout -->
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>CSS Topics</h3>
+      <ul>
+        <li><a href="#">Introduction</a></li>
+        <li><a href="#">Selectors</a></li>
+        <li><a href="#">Colors</a></li>
+        <li><a href="#">Fonts</a></li>
+        <li><a href="#">Box Model</a></li>
+        <li><a href="#">Flexbox</a></li>
+        <li><a href="#">Grid</a></li>
+      </ul>
+    </aside>
+
+    <!-- Content -->
+    <main class="content">
+      <h2>CSS Introduction</h2>
+      <p>CSS (Cascading Style Sheets) is used to style HTML elements. You can change colors, fonts, layouts, and more.</p>
+
+      <div class="note">💡 Note: CSS makes your web pages look beautiful and responsive.</div>
+
+      <h3>Example:</h3>
+      <pre><code>body {
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+  text-align: center;
+}</code></pre>
+
+      <!-- Editor -->
+      <h3>Try it Yourself:</h3>
+      <textarea id="editor" rows="10">
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <p>This is a CSS styled page!</p>
+</body>
+</html>
+      </textarea>
+      <br>
+      <button onclick="runCode()">Run Code</button>
+
+      <iframe id="output"></iframe>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      <a href="#">About</a> |
+      <a href="#">Contact</a> |
+      <a href="#">Privacy Policy</a>
+    </p>
+    <p>© 2025 LearnToCode. All rights reserved.</p>
+  </footer>
+</body>
+</html>

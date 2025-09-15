@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Learn HTML</h1>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="html.html" class="active">HTML</a>
+    <a href="css.html">CSS</a>
+    <a href="js.html">JavaScript</a>
+    <a href="python.html">Python</a>
+    <a href="dbms.html">DBMS</a>
+    <a href="tutorials.html">Tutorials</a>
+  </nav>
+
+  <!-- Main layout -->
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>HTML Topics</h3>
+      <ul>
+        <li><a href="#">Introduction</a></li>
+        <li><a href="#">Tags</a></li>
+        <li><a href="#">Headings</a></li>
+        <li><a href="#">Paragraphs</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#">Lists</a></li>
+      </ul>
+    </aside>
+
+    <!-- Content -->
+    <main class="content">
+      <h2>HTML Introduction</h2>
+      <p>HTML is the standard markup language for creating web pages. It stands for <strong>HyperText Markup Language</strong>.</p>
+
+      <div class="note">💡 Note: Every webpage you see on the internet is built with HTML.</div>
+
+      <h3>Example:</h3>
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+  &lt;p&gt;This is my first HTML page!&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+      <!-- Editor -->
+      <h3>Try it Yourself:</h3>
+      <textarea id="editor" rows="10">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <p>This is my first HTML page!</p>
+</body>
+</html>
+      </textarea>
+      <br>
+      <button onclick="runCode()">Run Code</button>
+
+      <iframe id="output"></iframe>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      <a href="#">About</a> |
+      <a href="#">Contact</a> |
+      <a href="#">Privacy Policy</a>
+    </p>
+    <p>© 2025 LearnToCode. All rights reserved.</p>
+  </footer>
+</body>
+</html>
